@@ -339,7 +339,7 @@ a {
     width: 400px;
     height: 460px;
     border-radius: 12px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .stats .sub-title {
