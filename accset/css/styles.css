@@ -17,6 +17,9 @@ body {
     font-family: "Poppins", sans-serif;
 }
 /* Common */
+.show-on-mobile {
+    display: none;
+}
 a {
     text-decoration: none;
 }
@@ -306,7 +309,7 @@ a {
 }
 .featured .list {
     gap: 30px;
-    display: flex;
+    display: grid;
     margin-top: 70px;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -564,7 +567,7 @@ a {
     display: flex;
 }
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 .footer .heading {
     color: #1c1c1d;
